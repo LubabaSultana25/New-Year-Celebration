@@ -6,7 +6,7 @@
 /* header related style  */
 .header-class {
 
-    background-image: url('../Images/Banner\ Image.png');
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(31, 31, 31, 0.73)), url('../Images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -86,7 +86,7 @@
 
 /* mid night section related style */
 .mid-night-banner {
-    background-image: url('../Images/Vectorrr.png');
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(31, 31, 31, 0.73)), url('../Images/Vectorrr.png');
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -181,22 +181,12 @@
 
 
 
-.offer-img {
-    /* width: 500px;
-    height: 250px; */
-    /* 
-    width: 464.844px;
-    height: 464.844px;
+.best-offer-img {
+    border: 20px solid #F00;
     border-radius: 50%;
-    border: 10px solid #F00; */
+    padding: 30px;
 
-    background: #FF7A59;
-    width: 800px;
-    height: 800px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    text-align: center;
+
 }
 
 
