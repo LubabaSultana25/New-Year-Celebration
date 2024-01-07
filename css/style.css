@@ -112,6 +112,7 @@
     margin-bottom: 30px;
 }
 
+
 .mid-night-description {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
@@ -136,6 +137,7 @@
 .mid-night-img {
     margin: 70px;
     margin-left: 100px;
+    mix-blend-mode: hard-light;
 
 }
 
@@ -174,8 +176,15 @@
 }
 
 /* Best offer related style */
+.best-offer-section {
+    margin: 40px auto;
+    width: 90%;
+}
+
 .best-offer-element {
     display: flex;
+    justify-content: space-between;
+    gap: 30px;
 
 }
 
@@ -185,22 +194,85 @@
     border: 20px solid #F00;
     border-radius: 50%;
     padding: 30px;
-
-
 }
 
 
 
+/* holyday related style */
+.holyday-section {
+    margin: 40px auto;
+    width: 90%;
+}
+
+.holyday-images {
+    background-image: url(/Images/Rectangle\ 2.png);
+    background-position: center;
+    border-radius: 10px;
+    border-radius: 16px 0px 16px 16px;
+    /* background: #F00;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0; */
 
 
+}
+
+.holyday-item {
+    text-align: center;
+}
+
+.holyday-item h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 80px;
+    padding: 20px;
+
+
+}
+
+.holyday-item h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.holyday-item h2 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holyday-item p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
 
 /* portfolio-section related style */
+
 .portfolio-section {
     margin: 40px auto;
     width: 90%;
 }
 
-.portfolio-info h3 {
+.p-info h3 {
     margin-bottom: 20px;
     color: #F00;
     font-family: Inter;
@@ -209,7 +281,7 @@
     line-height: normal;
 }
 
-.portfolio-info h2 {
+.p-info h2 {
     color: #070211;
     font-size: 40px;
     font-style: normal;
@@ -219,7 +291,7 @@
     padding-bottom: 10px;
 }
 
-.portfolio-info p {
+.p-info p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
