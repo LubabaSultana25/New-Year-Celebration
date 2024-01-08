@@ -214,11 +214,7 @@
     border-radius: 16px 0px 16px 16px;
     display: flex;
     position: relative;
-
-
 }
-
-.holyday-holy-images {}
 
 .holyday-image1 {
     width: 796.463px;
@@ -249,7 +245,6 @@
     line-height: normal;
     margin-top: 80px;
     padding: 20px;
-
 
 }
 
@@ -337,7 +332,7 @@
 
 }
 
-..subcription-info h3 {
+.subcription-info h3 {
     color: #070211;
     font-size: 48px;
     font-style: normal;
@@ -407,8 +402,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-.footer-info p {}
 
 .footer-icon {
     text-align: center;
