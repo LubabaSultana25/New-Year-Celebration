@@ -5,7 +5,6 @@
 
 /* header related style  */
 .header-class {
-
     background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(31, 31, 31, 0.73)), url('../Images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -198,46 +197,14 @@
 /* holyday related style */
 .holyday-section {
     margin: 40px auto;
-    width: 90%;
-    height: 900px;
+    /* width: 90%; */
+    /* height: 900px; */
 }
 
-.holyday-images {
-    background-image: url('../Images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    height: 200px;
-    text-align: center;
-    margin: 90px;
-    display: flex;
-}
-
-/* background-position: center bottom;
-    text-align: center;
-    /* margin: 90px; */
-/* background-size: cover;
-height: 229px;
-/* margin-top: 400px; */
-/* border-radius: 10px;
-border-radius: 16px 0px 16px 16px;
-display: flex;
-position: relative; */
-.holyday-image1 {
-    width: 750px;
-    height: 600px;
-    position: absolute;
-    text-align: left;
-
-}
-
-.holyday-image2 {
-    position: absolute;
-    text-align: right;
-
-}
 
 .holyday-item {
     text-align: center;
+    margin: 40px;
 }
 
 .holyday-item h3 {
@@ -280,8 +247,39 @@ position: relative; */
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    /* 160% */
 }
+
+
+.holyday-images {
+    background-image: url('../Images/gift-box.png');
+    background-position: center bottom;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 90%;
+    padding: 10px 5px 0 80px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.discount-box {
+    width: 60%;
+}
+
+.girls-img-container {
+    width: 35%;
+    text-align: end;
+    margin-top: 175px;
+    position: relative;
+}
+
+
+.discount-img-50 {
+    position: absolute;
+    top: 18%;
+    left: 18%;
+
+}
+
 
 /* portfolio-section related style */
 
@@ -320,16 +318,15 @@ position: relative; */
 }
 
 .portfolio-image-container {
+    text-align: center;
     display: grid;
-    column-gap: 5px;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
 }
 
 .portfolio-items img {
-    width: 424px;
-    height: 450px;
-    padding: 10px;
-    border-radius: 16px;
+    padding: 12px;
+    margin: 13px;
+    width: 30.2%;
 }
 
 
@@ -404,17 +401,17 @@ position: relative; */
 
 .footer-section {
     background-color: #070211;
-    width: 1600px;
+    /* width: 1600px; */
     height: 300px;
     color: #FFF;
-    width: 100%;
-
+    /* width: 100%; */
+    padding: 100px 80px;
 }
 
 .footer-element {
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer-icon {
@@ -423,6 +420,16 @@ position: relative; */
     padding-bottom: 25px;
 
 }
+
+
+.footer-info p {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    margin: auto 0;
+
+}
+
 
 .footer-icon img {
     padding: 5px;
