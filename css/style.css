@@ -3,6 +3,8 @@
     font-family: 'Merriweather', serif;
 }
 
+
+
 /* header related style  */
 .header-class {
     background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(31, 31, 31, 0.73)), url('../Images/Banner\ Image.png');
@@ -202,12 +204,12 @@
 }
 
 
-.holyday-item {
+.pera-description {
     text-align: center;
     margin: 40px;
 }
 
-.holyday-item h3 {
+.pera-description h3 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -219,7 +221,7 @@
 
 }
 
-.holyday-item h2 {
+.pera-description h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -229,7 +231,7 @@
     padding-bottom: 20px;
 }
 
-.holyday-item h2 span {
+.pera-description h2 span {
     color: #F00;
     text-align: center;
     font-family: Merriweather;
@@ -239,7 +241,7 @@
     line-height: normal;
 }
 
-.holyday-item p {
+.pera-description p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -329,6 +331,50 @@
     width: 30.2%;
 }
 
+.Team-section {
+    display: flex;
+    /* gap: 24px; */
+    justify-items: center;
+    text-align: center;
+}
+
+.Team {
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 3px 6px 50px 4px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.Team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-items: center;
+}
+
+.Team:hover {
+    background-color: rgba(255, 0, 0, 0.10);
+    /* zoom: 1; */
+
+}
+
+.Team-title {
+    color: var(--Dark-01, #181818);
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Team-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px line-height: 28px;
+
+}
 
 /* Subscription related style */
 .Subscription-section {
@@ -401,17 +447,34 @@
 
 .footer-section {
     background-color: #070211;
-    /* width: 1600px; */
     height: 300px;
     color: #FFF;
-    /* width: 100%; */
     padding: 100px 80px;
 }
 
 .footer-element {
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+
+}
+
+.footer-info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-info p {
+    display: flex;
+    gap: 10px;
+    margin: auto 0;
+}
+
+.footer-address {
+    width: 50%;
+}
+
+hr {
+    border-color: #ffffff26;
 }
 
 .footer-icon {
@@ -420,16 +483,6 @@
     padding-bottom: 25px;
 
 }
-
-
-.footer-info p {
-    display: flex;
-    /* align-items: center; */
-    gap: 10px;
-    margin: auto 0;
-
-}
-
 
 .footer-icon img {
     padding: 5px;
