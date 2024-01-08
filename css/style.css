@@ -199,37 +199,41 @@
 .holyday-section {
     margin: 40px auto;
     width: 90%;
-    height: 800px;
+    height: 900px;
 }
 
 .holyday-images {
     background-image: url('../Images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
     background-position: center bottom;
+    height: 200px;
     text-align: center;
     margin: 90px;
-    background-size: cover;
-    height: 229px;
-    /* margin-top: 400px; */
-    border-radius: 10px;
-    border-radius: 16px 0px 16px 16px;
     display: flex;
-    position: relative;
 }
 
+/* background-position: center bottom;
+    text-align: center;
+    /* margin: 90px; */
+/* background-size: cover;
+height: 229px;
+/* margin-top: 400px; */
+/* border-radius: 10px;
+border-radius: 16px 0px 16px 16px;
+display: flex;
+position: relative; */
 .holyday-image1 {
-    width: 796.463px;
-    height: 662.07px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-}
-
-.holyday-image1 img {
     width: 750px;
     height: 600px;
     position: absolute;
-    margin: 0;
-    padding: 0;
+    text-align: left;
+
+}
+
+.holyday-image2 {
+    position: absolute;
+    text-align: right;
+
 }
 
 .holyday-item {
@@ -315,10 +319,17 @@
     margin-bottom: 20px;
 }
 
+.portfolio-image-container {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto;
+}
+
 .portfolio-items img {
-    width: 500px;
-    height: 520px;
+    width: 424px;
+    height: 450px;
     padding: 10px;
+    border-radius: 16px;
 }
 
 
@@ -361,6 +372,8 @@
 
 .Subscription-form {
     padding-bottom: 50px;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .user-bar {
@@ -370,7 +383,8 @@
     background: #FFF;
     border: 0;
     text-align: center;
-    margin-left: -5px;
+    margin: -3px;
+    padding: 2px;
 
 
 }
@@ -382,8 +396,8 @@
     background-color: #F00;
     color: white;
     border: 0;
-    /* margin-right: 6px;
-    padding-left: -2px; */
+    padding: 0;
+    margin: 0;
 }
 
 /* footer related style */
