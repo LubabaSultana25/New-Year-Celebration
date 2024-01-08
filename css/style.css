@@ -203,7 +203,7 @@
 }
 
 .holyday-images {
-    background-image: url(/Images/Rectangle\ 2.png);
+    background-image: url('../Images/Rectangle\ 2.png');
     background-position: center bottom;
     text-align: center;
     margin: 90px;
