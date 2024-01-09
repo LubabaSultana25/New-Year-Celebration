@@ -320,6 +320,11 @@
     margin-bottom: 20px;
 }
 
+.p-2024 {
+    font-size: 48px !important;
+
+}
+
 .portfolio-image-container {
     text-align: center;
     display: grid;
