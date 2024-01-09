@@ -3,8 +3,6 @@
     font-family: 'Merriweather', serif;
 }
 
-
-
 /* header related style  */
 .header-class {
     background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(31, 31, 31, 0.73)), url('../Images/Banner\ Image.png');
@@ -43,8 +41,6 @@
     text-align: center;
 }
 
-
-
 .offer-title {
     color: #F00;
     font-size: 88px;
@@ -52,8 +48,6 @@
     margin-top: 100px;
     /* font-weight: 700; */
     font-family: Inter;
-
-
 }
 
 .offer-title2 {
